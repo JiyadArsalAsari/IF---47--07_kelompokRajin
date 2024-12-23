@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Latar belakang putih terang untuk halaman */
+    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png'); /* Menambahkan gambar motif kayu */
+    background-repeat: repeat; /* Mengulang gambar latar belakang */
+    color: #4e4b47; /* Warna teks coklat gelap */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #4e4b47; /* Warna teks coklat gelap untuk judul */
+    font-family: 'Georgia', serif; /* Font serif untuk memberi kesan klasik */
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    background-color: #c69c9c; /* Warna coklat kayu jati untuk tombol */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6b3f1f; /* Warna coklat yang lebih gelap saat tombol di-hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff; /* Latar belakang tabel putih */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk tabel */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Border abu-abu terang untuk tabel */
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #8b4513; /* Coklat kayu jati untuk header tabel */
+    color: #fff; /* Teks putih untuk header tabel */
+}
+
+td {
+    color: #4e4b47; /* Warna font isi tabel menjadi coklat gelap */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Warna latar belakang abu-abu terang untuk baris genap */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Warna latar belakang putih untuk baris ganjil */
+}
+
+tr:hover {
+    background-color: #f1e2c6; /* Warna coklat muda saat baris di-hover */
+    cursor: pointer;
+}
+
+/* Styling untuk footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #4e4b47;
+}
+
+footer p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* Styling untuk bagian Dibuat Oleh */
+.created-by {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.created-by p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4e4b47; /* Coklat gelap */
+    font-style: italic;
+}
+
+.created-by ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.created-by ul li {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-style: italic;
+    color: #4e4b47;
+}
+
+/* Styling untuk bagian Pilih Metode */
+.method-selection {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.method-selection p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4e4b47;
+    font-style: italic;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    background-color:  #ae5a5a; /* Warna coklat kayu jati untuk tombol */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6b3f1f; /* Warna coklat yang lebih gelap saat tombol di-hover */
+}

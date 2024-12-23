@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorted Product Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"> 
+        <!-- Judul dan Deskripsi -->
+        <h1>Daftar Produk</h1>
+        <h2>Mengurutkan Stok dari yang terkecil sampai ke terbesar</h2>
+        <div class="created-by">
+            <p><strong>Dibuat Oleh:</strong></p>
+            <ul>
+                <li>- Achmad Azhar Faiz Sabiq</li>
+                <li>- Jiyad Arsal Asari</li>
+            </ul>
+        </div>       
+        <!-- Bagian Pilih Metode -->
+        <div class="method-selection">
+            <p><strong>Pilih Metode Pengurutan:</strong></p>
+            <div class="buttons">
+                <button id="sortIterative">Sort Iterative</button>
+                <button id="sortRecursive">Sort Recursive</button>
+            </div>
+        </div>
+
+        <!-- Tabel Data -->
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th>Kode Produk</th>
+                    <th>Nama Produk</th>
+                    <th>Jenis Produk</th>
+                    <th>Skala</th>
+                    <th>Vendor</th>
+                    <th>Deskripsi</th>
+                    <th>Stok</th> <!-- Index ke-6 untuk Sorting -->
+                    <th>Harga Beli</th>
+                    <th>Harga Jual</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data akan dimuat oleh JavaScript -->
+            </tbody>
+        </table>
+        
+        <!-- Footer -->
+        <footer>
+            <ul>
+                <li>Tugas Besar Analisis Kompleksitas Algoritma 2024</li>
+            </ul> 
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
